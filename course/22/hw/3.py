@@ -1,0 +1,1 @@
+with open('24_2421.txt') as f:print(max(map(len,''.join(str(int(i!='D')) for i in f.read()).split('0'))))

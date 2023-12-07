@@ -1,0 +1,1 @@
+with open('24_865.txt') as f:print(max(map(len,''.join(str(int(i not in 'CF')) for i in f.read()).split('0'))))

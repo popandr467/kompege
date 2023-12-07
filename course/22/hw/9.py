@@ -1,0 +1,1 @@
+with open('24_1302.txt') as f:print(max(map(len,''.join(str(int(''.join(i)!='XZZY')) for i in (lambda x:zip(x,x[1:],x[2:],x[3:]))(f.read())).split('0')))+3)

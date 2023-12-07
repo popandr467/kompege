@@ -1,0 +1,1 @@
+with open('24_2420.txt') as f:print(max(map(len,''.join(str(int(i in {*'ABEF'})) for i in f.read()).split('0'))))

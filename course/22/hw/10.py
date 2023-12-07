@@ -1,0 +1,1 @@
+with open('24_21.txt') as f:print(max(map(len,''.join(str(int(i!=j)) for i,j in (lambda x:zip(x,x[1:]))(f.read())).split('0')))+1)
